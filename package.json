@@ -1,0 +1,28 @@
+{
+  "name": "@patriarche/stylelint-config-vue",
+  "license": "MIT",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "review:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "link:local": "yarn build && rm -rf .link && mkdir .link && cp -r dist .link/dist && cp package.json .link"
+  },
+  "dependencies": {
+    "@patriarche/stylelint-config-base": "^1.0.0",
+    "postcss-html": "^1.0.0",
+    "stylelint": "14.16.1",
+    "stylelint-config-standard-vue": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "peerDependencies": {
+    "stylelint": "14.16.1"
+  }
+}

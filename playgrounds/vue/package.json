@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "review:stylelint": "stylelint \"src/**/*.{scss,vue}\" --fix --color",
+    "link:local": "rm -rf node_modules/@patriarche/stylelint-config-vue && yarn --check-files"
+  },
+  "devDependencies": {
+    "@patriarche/stylelint-config-vue": "file:../../.link",
+    "stylelint": "14.16.1"
+  }
+}
