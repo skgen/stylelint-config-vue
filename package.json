@@ -12,7 +12,7 @@
     "link:local": "yarn build && rm -rf .link && mkdir .link && cp -r dist .link/dist && cp package.json .link"
   },
   "dependencies": {
-    "@patriarche/stylelint-config-base": "^1.0.0",
+    "@patriarche/stylelint-config-base": "^1.1.0",
     "postcss-html": "^1.0.0",
     "stylelint": "14.16.1",
     "stylelint-config-standard-vue": "1.0.0"

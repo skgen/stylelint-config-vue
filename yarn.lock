@@ -100,10 +100,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@patriarche/stylelint-config-base@^1.0.0":
-  version "1.0.0"
-  resolved "https://gitlab.com/api/v4/projects/46353697/packages/npm/@patriarche/stylelint-config-base/-/@patriarche/stylelint-config-base-1.0.0.tgz#582905ce548cca65fd679b3923eb76279394217d"
-  integrity sha1-WCkFzlSMymX9Z5s5I+t2J5OUIX0=
+"@patriarche/stylelint-config-base@^1.1.0":
+  version "1.1.0"
+  resolved "https://gitlab.com/api/v4/projects/46353697/packages/npm/@patriarche/stylelint-config-base/-/@patriarche/stylelint-config-base-1.1.0.tgz#d3b971a41c0e1cca380a80939530f5e40b9d5231"
+  integrity sha1-07lxpBwOHMo4CoCTlTD15AudUjE=
   dependencies:
     postcss "^8.4.14"
     postcss-scss "^4.0.4"

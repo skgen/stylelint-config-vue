@@ -2,24 +2,26 @@
   <div class="pux-TheApp" />
 </template>
 
-
 <style lang="scss">
 .dzapijdpza {
-
-
+    transition: color 10s;
 }
 
 .pux-TheApp {
-  &-Toto {
-    color: red;
-  }
+    &-Toto {
+        color: red;
+    }
 
-  .test {
-    color: green;
-  }
+    &-test {
+        color: green;
+    }
 
-  .pux-AppLabel {
-    color: blue;
-  }
+    .test {
+        color: blue;
+    }
+
+    .pux-AppLabel {
+        color: blue;
+    }
 }
 </style>
