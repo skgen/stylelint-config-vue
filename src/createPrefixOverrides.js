@@ -9,8 +9,8 @@ function createModuleOverrides(prefixes) {
     }
     computedPrefixes.push(prefix.charAt(0).toUpperCase() + prefix.slice(1));
   }
-  const joined = computedPrefixes.join('|');
-  const pattern = `((mk|pux)-((${joined})|(The(${joined}))))[A-Z][a-zA-Z0-9]+`;
+  const joined = computedPrefixes.length > 1 ? `(${computedPrefixes.join('|')})` : computedPrefixes.join('|');
+  const pattern = `((mk|pux)-(${joined}|(The${joined})))[A-Z][a-zA-Z0-9]+`;
 
   return [
     {

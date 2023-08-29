@@ -5,5 +5,5 @@ module.exports = {
     '@patriarche/stylelint-config-base',
     'stylelint-config-standard-vue/scss',
   ],
-  overrides: createPrefixOverrides(['App']),
+  overrides: createPrefixOverrides([]),
 };
