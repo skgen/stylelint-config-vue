@@ -3,25 +3,38 @@
 </template>
 
 <style lang="scss">
-.dzapijdpza {
-    transition: color 10s;
+// Works
+.pux-AppList {
+    color: red;
 }
 
-.pux-TheApp {
-    &-Toto {
-        color: red;
-    }
+// Works
+.pux-TheAppList {
+    color: red;
+}
 
-    &-test {
-        color: green;
-    }
+// Works
+.pux-AdminList {
+    color: red;
+}
 
-    .test {
-        color: blue;
-    }
+// Works
+.pux-TheAdminList {
+    color: red;
+}
 
-    .pux-AppLabel {
-        color: blue;
-    }
+// Works
+.pux-CustomerList {
+    color: red;
+}
+
+// Works
+.pux-TheCustomerList {
+    color: red;
+}
+
+// Doesn't work
+.pux-TheTestList {
+    color: red;
 }
 </style>

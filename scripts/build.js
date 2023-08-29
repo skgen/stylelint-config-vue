@@ -3,6 +3,7 @@ const path = require('path');
 
 const files = [
   { from: 'index.js', to: 'index.js' },
+  { from: 'createPrefixOverrides.js', to: 'createPrefixOverrides.js' },
 ];
 
 const destPath = path.resolve(__dirname, '../dist');

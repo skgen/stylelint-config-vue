@@ -5,7 +5,11 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./createPrefixOverrides": "./dist/createPrefixOverrides.js"
+  },
   "scripts": {
     "build": "node scripts/build.js",
     "review:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
